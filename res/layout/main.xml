@@ -5,14 +5,14 @@
     android:layout_height="fill_parent"
     android:background="@drawable/background">
 <TextView  
-	android:id="@+id/opensusereleasecountdown"
+	android:id="@+id/oSRCD"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     android:textColor="#ffffff"
     android:textStyle="bold"
     android:typeface="monospace"
-    android:textSize="12sp"
-    android:paddingTop="20dip" android:paddingLeft="150dip"/>
+   android:textSize="12sp"
+   android:paddingTop="20dip" android:paddingLeft="150dip"/>
   
 </LinearLayout>
