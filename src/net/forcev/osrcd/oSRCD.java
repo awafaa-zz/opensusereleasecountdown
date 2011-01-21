@@ -31,7 +31,7 @@ public class oSRCD extends AppWidgetProvider {
 	         @Override
 	         public void run() {
 	        	Date date1 = new Date();
-	     		Calendar calendar = new GregorianCalendar(2011, 03, 28);
+	     		Calendar calendar = new GregorianCalendar(2011, 02, 10);
 	     		long days = (((calendar.getTimeInMillis()- date1.getTime())/1000))/86400;
 	                 remoteViews.setTextViewText(R.id.oSRCD,"" + days);
 	                 appWidgetManager.updateAppWidget(thisWidget, remoteViews); 
